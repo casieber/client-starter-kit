@@ -1,9 +1,7 @@
 import React from 'react';
 
-import * as colors from 'constants/colors';
-
 const style: React.CSSProperties = {
-	backgroundColor: colors.TERTIARY,
+	backgroundColor: 'rgba(0, 0, 0, .1)',
 	color: 'rgba(0, 0, 0, .6)',
 	fontSize: '2.4rem',
 	display: 'flex',
