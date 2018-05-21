@@ -14,7 +14,8 @@
 		"baseUrl": ".",
 		"paths": {
 			"components/*": ["./src/components/*"],
-			"containers/*": ["./src/containers/*"]
+			"containers/*": ["./src/containers/*"],
+			"constants/*": ["./src/constants/*"]
 		},
 		"sourceMap": true
 	},

@@ -6,7 +6,7 @@ import Footer from 'components/Footer';
 const App = () => (
 	<>
 		<Header />
-		<p>Edit src/containers/App.tsx to get started</p>
+		<div style={{ flex: 1, textAlign: 'center', padding: '28px', fontSize: '1.4rem' }}>Edit src/containers/App.tsx to get started</div>
 		<Footer />
 	</>
 );
