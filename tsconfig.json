@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "es6",
+		"target": "es6",
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"outDir": "dist",
+		"jsx": "react",
+		"moduleResolution": "node",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"experimentalDecorators": true,
+		"baseUrl": ".",
+		"paths": {
+			"components/*": ["./src/components/*"],
+			"containers/*": ["./src/containers/*"]
+		}
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"src/**/*"
+	]
+}
