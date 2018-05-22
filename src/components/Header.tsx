@@ -8,7 +8,7 @@ const style: React.CSSProperties = {
 	justifyContent: 'center',
 	alignItems: 'center',
 	fontSize: '3rem',
-	minHeight: '120px'
+	minHeight: '120px',
 };
 
 const Header = () => <div style={style}>Header</div>;

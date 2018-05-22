@@ -7,8 +7,8 @@ const style: React.CSSProperties = {
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center',
-	minHeight: '180px'
-}
+	minHeight: '180px',
+};
 
 const Footer = () => <div style={style}>Footer</div>;
 
