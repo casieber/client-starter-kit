@@ -3,11 +3,11 @@ import * as React from 'react';
 import { PRIMARY } from 'constants/colors';
 
 const style: React.CSSProperties = {
+	alignItems: 'center',
 	backgroundColor: PRIMARY,
 	display: 'flex',
-	justifyContent: 'center',
-	alignItems: 'center',
 	fontSize: '3rem',
+	justifyContent: 'center',
 	minHeight: '120px',
 };
 

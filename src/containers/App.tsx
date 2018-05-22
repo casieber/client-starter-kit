@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from 'components/Header';
 import Footer from 'components/Footer';
+import Header from 'components/Header';
 
 const App = () => (
 	<>
@@ -9,9 +9,9 @@ const App = () => (
 		<div
 			style={{
 				flex: 1,
-				textAlign: 'center',
-				padding: '28px',
 				fontSize: '1.4rem',
+				padding: '28px',
+				textAlign: 'center',
 			}}
 		>
 			Edit src/containers/App.tsx to get started
